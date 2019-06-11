@@ -1,4 +1,4 @@
-package AbstractFactory.sword;
+package FactoryMethod.sword;
 
 public class RustySword implements Sword {
     @Override
