@@ -1,4 +1,4 @@
-package Composite;
+package Composite.swords;
 
 public abstract class AbstractSword {
     protected double damage;

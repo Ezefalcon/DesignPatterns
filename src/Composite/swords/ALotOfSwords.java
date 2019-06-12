@@ -1,4 +1,4 @@
-package Composite;
+package Composite.swords;
 
 import java.util.ArrayList;
 import java.util.List;

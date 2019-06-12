@@ -1,4 +1,4 @@
-package Composite;
+package Composite.swords;
 
 public class Sword extends AbstractSword {
 

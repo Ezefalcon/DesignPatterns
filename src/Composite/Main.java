@@ -1,6 +1,7 @@
 package Composite;
 
-import java.util.Arrays;
+import Composite.swords.ALotOfSwords;
+import Composite.swords.Sword;
 
 public class Main {
     public static void main(String[] args) {
