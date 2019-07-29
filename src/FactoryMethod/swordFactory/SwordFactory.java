@@ -7,14 +7,15 @@ import FactoryMethod.sword.Sword;
 //As singleton
 public class SwordFactory{
 
-    private static SwordFactory instance;
+    private static SwordFactory INSTANCE;
 
     private SwordFactory(){}
 
     public static SwordFactory getInstance(){
-        if(instance==null){
-            return instance;
-        } else return instance;
+        if(INSTANCE==null){
+            INSTANCE = new SwordFactory();
+        }
+        return INSTANCE;
     }
 
     public static Sword getSword(int level){

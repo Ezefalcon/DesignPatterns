@@ -2,7 +2,7 @@ package AbstractFactory.weapon.hammers;
 
 import AbstractFactory.weapon.Weapon;
 
-public class WoodenHammer implements Weapon {
+public class WoodenHammer implements Weapon,Hammer {
 
     @Override
     public double getDamage() {
@@ -12,5 +12,10 @@ public class WoodenHammer implements Weapon {
     @Override
     public double getSpeed() {
         return 0.2;
+    }
+
+    @Override
+    public double getSmashDamage() {
+        return getDamage()*getSpeed();
     }
 }

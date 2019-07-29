@@ -1,7 +1,9 @@
 package Builder;
 
+/**
+ * This is only a simple example, but you should use builder only in complex objects
+ */
 public class Swordit{
-
     private double damage;
     private double speed;
     private String name;

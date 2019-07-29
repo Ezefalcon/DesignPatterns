@@ -2,7 +2,7 @@ package AbstractFactory.weapon.swords;
 
 import AbstractFactory.weapon.Weapon;
 
-public class RustySword implements Weapon {
+public class RustySword implements Weapon,Sword {
 
     @Override
     public double getDamage() {
@@ -12,5 +12,10 @@ public class RustySword implements Weapon {
     @Override
     public double getSpeed() {
         return 1.2;
+    }
+
+    @Override
+    public double getSharpDamage() {
+        return getDamage()*getSpeed();
     }
 }
